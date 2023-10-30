@@ -6,7 +6,7 @@
 /*   By: disantam <disantam@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/05 16:43:50 by disantam          #+#    #+#             */
-/*   Updated: 2023/06/27 19:33:13 by disantam         ###   ########.fr       */
+/*   Updated: 2023/10/30 16:01:12 by disantam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,10 +58,4 @@ int	ft_printf(char const *s, ...)
 	}
 	va_end(args);
 	return (c);
-}
-
-int	main()
-{
-	printf("Hola que tal, %c", 'c');
-	return (0);
 }
