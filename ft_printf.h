@@ -6,7 +6,7 @@
 /*   By: disantam <disantam@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/12 18:19:39 by disantam          #+#    #+#             */
-/*   Updated: 2023/06/23 18:24:29 by disantam         ###   ########.fr       */
+/*   Updated: 2023/11/09 10:52:26 by disantam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,5 @@ int	ft_putchar(int c);
 int	ft_putstr(char *s);
 int	ft_dec(long n, char f);
 int	ft_hex(size_t ptr, char f);
-int	ft_upperhex(unsigned int n);
 
 #endif

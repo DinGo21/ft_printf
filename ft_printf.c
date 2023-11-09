@@ -6,7 +6,7 @@
 /*   By: disantam <disantam@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/05 16:43:50 by disantam          #+#    #+#             */
-/*   Updated: 2023/10/30 16:01:12 by disantam         ###   ########.fr       */
+/*   Updated: 2023/11/09 10:52:52 by disantam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,7 @@ int	ft_printf(char const *s, ...)
 	int		c;
 	va_list	args;
 
-	va_start(args, s);s
+	va_start(args, s);
 	i = 0;
 	c = 0;
 	while (s[i] != '\0')
